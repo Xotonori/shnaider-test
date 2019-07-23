@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.max-width {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+/*Стилизуем блок шапкки - header*/
+
+#wrap-content > header {
+    background-color: #dcdcdc;
+    color: #777;
+}
+
+#wrap-content > header .wrap-header {
+    padding-top: 45px;
+    padding-bottom: 54px;
+}
+
+#wrap-content > header .logo {
+    width: 6.375rem;
+    height: 6.25rem;
+    cursor: pointer;
+}
+
+#wrap-content > header .wrap-logo {
+    margin: 0;
+    display: inline-block;
+}
+
+#wrap-content > header .uppercase {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.875rem;
+    letter-spacing: .9px;
+    margin-top: -2px;
+}
+
+#wrap-content > header .company-name {
+    display: inline-block;
+    width: 180px;
+    line-height: 1.15;
+    margin-left: 17px;
+}
+
+#wrap-content > header .company-name span {
+    display: inline-block;
+}
+
+#wrap-content > header .utp {
+    font-size: .865rem;
+    margin-top: 9px;
+    letter-spacing: .4px;
+}
+
+#wrap-content > header .sale {
+    display: inline-block;
+    font-size: 1.0625rem;
+    margin-top: 20px;
+    margin-left: 61px;
+    letter-spacing: .4px;
+}
+
+#wrap-content > header .wrap-phone {
+    padding: 0;
+}
+
+#wrap-content > header .header-phone {
+    display: block;
+    color: #767676;
+    font-weight: 800;
+    font-size: 1.9375rem;
+    margin-left: 13px;
+    letter-spacing: .8px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#wrap-content > header .header-phone:hover {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+/*Стилизуем блок навигации - nav*/
+
+#wrap-content > nav {
+    background-color: #777;
+}
+
+#main-menu > ul{
+    padding: 17px 0;
+}
+
+#main-menu .nav-item a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: .4px;
+    padding: 0 14.5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#main-menu .nav-item:not(:last-child) a {
+    border-right: 1px solid #fff;
+}
+
+#main-menu .nav-item:hover > a {
+    font-size: 1.1875rem;
+}
+
+/*Стилизуем блок главного контента новости - .news*/
+
+#main-content {
+    margin-top: 53px;
+}
+
+#main-content .news {
+    background-color: #777;
+    color: #fff;
+    max-width: 350px;
+    padding: 12px 34px 0;
+    margin-left: 15px;
+}
+
+#main-content .news h2 {
+    font-weight: 700;
+    font-size: 2.4375rem;
+    letter-spacing: -1px;
+}
+
+#main-content .news .date-the-new {
+    font-weight: 300;
+    font-style: italic;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#main-content .news .item-new {
+    font-weight: 400;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#main-content .news article {
+    margin-top: 22px;
+}
+
+#main-content .news article:hover {
+    cursor: pointer;
+}
+
+#main-content .news article:hover > .date-the-new,
+#main-content .news article:hover > .item-new {
+    font-size: 0.9375rem;
+}
+
+#main-content .news .archive {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .4px;
+    margin: 57px 0 30px 172px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+#main-content .news .archive:hover {
+    font-size: 1.02rem;
+}
+
+/*Стилизуем блок главного контента о нас - .about-us*/
+
+#main-content .about-us {
+    margin-right: 15px;
+    color: #767676;
+    padding: 0 0 0 60px;
+}
+
+#main-content .about-us .about-company {
+    padding-top: 12px;
+}
+
+#main-content .about-us .about-company h1 {
+    font-size: 2.125rem;
+    letter-spacing: -.6px;
+}
+
+#main-content .about-us p {
+    font-size: .875rem;
+    letter-spacing: .4px;
+    line-height: 22px;
+}
+
+#main-content .about-us .about-company p:nth-of-type(1) {
+    margin-top: 19px;
+}
+
+#main-content .about-us .about-company p:nth-of-type(2) {
+    margin-top: 22px;
+}
+
+#main-content .about-us .our-work {
+    margin-top: 25px;
+}
+
+#main-content .about-us .our-work h2 {
+    font-size: 1.5rem;
+}
+
+#main-content .about-us .our-work h3 {
+    font-weight: 700;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    line-height: 22px;
+}
+
+#main-content .about-us .our-work .row {
+    margin-top: 33px;
+}
+
+#main-content .about-us .our-work .row .col:nth-of-type(2) {
+    margin-left: 10px;
+}
+
+#main-content .about-us .our-work .row p {
+    margin-top: 22px;
+}
+
+/*Стилизуем блок футера - .footer*/
+
+#wrap-content > footer {
+    background-color: #777;
+    color: #fff;
+    font-size: .875rem;
+    letter-spacing: .4px;
+    line-height: 22px;
+    margin-top: 195px;
+    padding: 45px 0 47px 0;
+}
+
+#wrap-content .footer-menu {
+    margin-left: 99px;
+}
+
+#wrap-content .footer-menu li:not(:nth-of-type(1)) {
+    margin-top: 4px;
+}
+
+#wrap-content .footer-menu a,
+#wrap-content > footer .developer a{
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
